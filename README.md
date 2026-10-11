@@ -50,11 +50,11 @@ SecureSpring Inspector checks these patterns before deployment without executing
 
 The project turns a list of security properties into deterministic checks that identify potentially unsafe configuration and source patterns.
 
-### Backend / software engineering
+### Backend Engineering
 
 The project is a Java/Spring Boot application using Maven, dependency injection, filesystem access, typed models, a small rule engine, reporting, input validation, exception handling and JUnit tests.
 
-### DTU / software assurance
+### Software Assurance
 
 The project demonstrates a small form of static analysis and program-analysis thinking: define a property, inspect artefacts, evaluate a rule, produce traceable evidence and test both positive and negative cases. It does **not** claim formal verification, theorem proving, symbolic execution, data-flow analysis, or industrial-grade static analysis.
 
@@ -773,47 +773,10 @@ Software Engineer II | Backend / Enterprise Systems
 - GitHub: https://github.com/shahriar-tamjid
 - LinkedIn: https://linkedin.com/in/shahriar-tamjid/
 
-This project is an educational portfolio project built to demonstrate backend engineering, cybersecurity awareness, and an introductory software-assurance/static-analysis mindset.
+This project is an educational portfolio project built to demonstrate backend engineering, cybersecurity awareness, and an introductory software-assurance mindset.
 
 ## 30. Licence
 
 MIT License. See `LICENSE`.
 
 ---
-
-## CV-ready project description
-
-Use only these claims because they match the implementation in this repository:
-
-**SecureSpring Inspector — Java / Spring Boot Static Security Analyser**
-
-- Built a lightweight deterministic static analyser for selected Spring Boot configuration and Java source patterns, detecting common security misconfigurations and producing structured findings with severity, evidence and remediation guidance.
-- Added positive/negative rule tests plus vulnerable and secure fixtures to validate reproducible security-analysis behaviour and demonstrate software-assurance principles.
-
-## 50-word project description
-
-SecureSpring Inspector is a lightweight Java/Spring Boot static analyser that scans selected Spring Boot configuration and Java source files for ten deterministic security rules, including hard-coded secrets, wildcard CORS, broad actuator exposure and disabled CSRF. It generates human-readable or JSON findings and uses regression-tested vulnerable/secure fixtures for reproducible analysis.
-
-## 100-word project description
-
-SecureSpring Inspector is a CLI-first Java/Spring Boot security-analysis tool built to demonstrate practical static-analysis and software-assurance concepts without unnecessary complexity. It discovers selected Spring Boot configuration and Java source files, normalises simple configuration entries, evaluates ten deterministic security rules, and reports severity, evidence location, descriptions and remediation guidance. The project includes unit tests, an integration test suite, deliberately vulnerable and corrected fixtures, a project-local Maven bootstrap wrapper, and GitHub Actions CI. Its scope is intentionally educational: it does not execute target applications, use ML or LLMs, persist data, or claim formal verification or industrial-grade vulnerability-scanning capabilities.
-
-## Five technical skills demonstrated
-
-1. Java 21 backend development.
-2. Spring Boot dependency injection and CLI packaging.
-3. Maven build and reproducible project setup.
-4. Deterministic rule-engine and static-analysis design.
-5. JUnit testing, integration fixtures, reporting and error handling.
-
-## Five CYBERSURE-relevant concepts demonstrated
-
-1. Static analysis.
-2. Security-property / rule-based checking.
-3. Traceable findings and evidence.
-4. False-positive / false-negative reasoning.
-5. Reproducible software-assurance testing.
-
-## One-line honest positioning
-
-> A deliberately small educational static-analysis project showing how a backend engineer can turn security properties into deterministic, testable and explainable software checks.

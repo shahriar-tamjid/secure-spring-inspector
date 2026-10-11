@@ -778,5 +778,3 @@ This project is an educational portfolio project built to demonstrate backend en
 ## 30. Licence
 
 MIT License. See `LICENSE`.
-
----
